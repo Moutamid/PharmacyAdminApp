@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Add Banks Details"
+        android:textSize="23dp"
+
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/bankLogoPreview"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:scaleType="centerCrop"
+        android:src="@drawable/img" />
+
+    <Button
+        android:id="@+id/uploadLogoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg"
+        android:text="Upload Bank Logo" />
+
+    <EditText
+        android:id="@+id/bankNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/stroke_button"
+        android:hint="Bank Name"
+        android:paddingStart="12dp" />
+
+    <EditText
+        android:id="@+id/accountHolderInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/stroke_button"
+
+        android:hint="Account Holder Name"
+        android:paddingStart="12dp" />
+
+    <EditText
+        android:id="@+id/accountNumberInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/stroke_button"
+
+        android:hint="Account Number"
+        android:inputType="number"
+        android:paddingStart="12dp" />
+
+    <EditText
+        android:id="@+id/extraInfoInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/stroke_button"
+
+        android:hint="Additional Info (Optional)"
+        android:paddingStart="12dp" />
+
+    <Button
+        android:id="@+id/saveBankButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button_bg"
+
+        android:paddingStart="12dp"
+        android:text="Save Bank Details" />
+
+</LinearLayout>

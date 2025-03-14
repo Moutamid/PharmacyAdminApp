@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:gravity="center_vertical"
+        android:paddingStart="12dp"
+
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="53dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="21dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="43dp"
+                android:text="Manage Payments &amp; Pricing"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="43dp"
+                android:text="View Payment Status and Adjust Subscription Prices in One Click"
+                android:textSize="16sp" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/grey"
+                android:gravity="start|center"
+                android:padding="12dp"
+                android:text="Payment Management (User)"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:cornerRadius="12dp"
+                app:icon="@drawable/round_keyboard_arrow_right_24"
+                app:iconGravity="end"
+                app:iconTint="@color/black" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/paymentowner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:backgroundTint="@color/grey"
+                android:gravity="start|center"
+                android:onClick="pharmacyowner"
+                android:padding="12dp"
+                android:text="Payment Management \n(Pharmacy Owner)"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:cornerRadius="12dp"
+                app:icon="@drawable/round_keyboard_arrow_right_24"
+                app:iconGravity="end"
+                app:iconTint="@color/black" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/pricing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/grey"
+                android:gravity="start|center"
+                android:layout_marginTop="5dp"
+                android:padding="12dp"
+                android:text="Pricing Managment (Manual)"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:cornerRadius="12dp"
+                app:icon="@drawable/round_keyboard_arrow_right_24"
+                app:iconGravity="end"
+                app:iconTint="@color/black" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/bank_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/grey"
+                android:gravity="start|center"
+                android:layout_marginTop="5dp"
+                android:padding="12dp"
+                android:text="Bank Details"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:cornerRadius="12dp"
+                app:icon="@drawable/round_keyboard_arrow_right_24"
+                app:iconGravity="end"
+                app:iconTint="@color/black" />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

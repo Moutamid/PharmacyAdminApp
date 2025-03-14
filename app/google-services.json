@@ -1,0 +1,156 @@
+{
+  "project_info": {
+    "project_number": "395852976126",
+    "firebase_url": "https://sos-app-63a86-default-rtdb.firebaseio.com",
+    "project_id": "sos-app-63a86",
+    "storage_bucket": "sos-app-63a86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395852976126:android:edd86a0b3aba0b501abaaf",
+        "android_client_info": {
+          "package_name": "com.moutamid.pharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395852976126-047d52q4e9up2sgmmt83cluq4snajoep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Hr82nTNhdN9mrE2s8BtM7hbBGsrKrGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395852976126-047d52q4e9up2sgmmt83cluq4snajoep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395852976126:android:d866ce273e969c6c1abaaf",
+        "android_client_info": {
+          "package_name": "com.moutamid.pharmacyadminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395852976126-047d52q4e9up2sgmmt83cluq4snajoep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Hr82nTNhdN9mrE2s8BtM7hbBGsrKrGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395852976126-047d52q4e9up2sgmmt83cluq4snajoep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395852976126:android:95286c6db8f7f91a1abaaf",
+        "android_client_info": {
+          "package_name": "com.moutamid.sprachelernen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395852976126-047d52q4e9up2sgmmt83cluq4snajoep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Hr82nTNhdN9mrE2s8BtM7hbBGsrKrGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395852976126-047d52q4e9up2sgmmt83cluq4snajoep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395852976126:android:fec43d866e9793d81abaaf",
+        "android_client_info": {
+          "package_name": "com.moutamid.sprachelernenadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395852976126-047d52q4e9up2sgmmt83cluq4snajoep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Hr82nTNhdN9mrE2s8BtM7hbBGsrKrGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395852976126-047d52q4e9up2sgmmt83cluq4snajoep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395852976126:android:85444879695c1ef21abaaf",
+        "android_client_info": {
+          "package_name": "com.sosapp.mapsproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395852976126-047d52q4e9up2sgmmt83cluq4snajoep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Hr82nTNhdN9mrE2s8BtM7hbBGsrKrGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395852976126-047d52q4e9up2sgmmt83cluq4snajoep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
