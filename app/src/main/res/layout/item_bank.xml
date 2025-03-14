@@ -16,7 +16,6 @@
         android:layout_height="60dp"
         android:scaleType="fitCenter"
         android:src="@drawable/img" />
-
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
