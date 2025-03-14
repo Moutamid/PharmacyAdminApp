@@ -8,6 +8,7 @@
     android:background="@android:color/white"
     android:elevation="2dp">
 
+
     <ImageView
         android:id="@+id/bankLogo"
         android:layout_width="60dp"
