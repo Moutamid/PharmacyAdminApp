@@ -9,6 +9,7 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,6 +21,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.fxn.stash.Stash;
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.moutamid.pharmacyadminapp.activities.AllBankActivity;
 import com.moutamid.pharmacyadminapp.databinding.ActivityMainBinding;
 
@@ -42,6 +45,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        FirebaseMessaging.getInstance().getToken()
+                .addOnCompleteListener(task -> {
+                    if (!task.isSuccessful()) {
+                        Log.w("FCM", "Fetching FCM token failed", task.getException());
+                        return;
+                    }
+                    String token = task.getResult();
+                    FirebaseDatabase.getInstance().getReference("PharmacyApp").child("AdminTokens").setValue(token);
+                });
+
         binding.payment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

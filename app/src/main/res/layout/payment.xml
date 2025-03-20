@@ -34,7 +34,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/blueDark"
                     android:textSize="18sp"
-                    tools:text="3 Months" />
+                    tools:text="Y" />
 
                 <TextView
                     android:id="@+id/time"
@@ -74,8 +74,9 @@
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
             android:textAllCaps="true"
+            android:textStyle="bold"
             android:textColor="@color/greenDark"
-            android:textSize="26sp"
+            android:textSize="20sp"
             tools:text="$25.00" />
 
         <LinearLayout
